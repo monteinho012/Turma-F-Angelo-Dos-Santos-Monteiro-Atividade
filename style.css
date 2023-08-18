@@ -1,0 +1,112 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*Paleta de cores presentes no fundo e codigo para não ter erro*/
+
+:root {
+  background-image: linear-gradient(to bottom, #6e66e3, #5f78e8, #5888e9, #5a96e7, #66a3e3);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Header sem limites e barra também*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*header e as palavras*/
+
+header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7D98FA;
+  color: #FABC7D;
+  box-sizing: border-box;
+}
+
+/*codigo para a lista*/
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* organizar as opções do header*/
+
+.navbar li {
+  display: inline-block;
+}
+
+/*cor,letra e tamanho dos links*/
+
+.navbar a {
+  text-decoration: none;
+  color: #FAAC96;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*brilhar quando o mouse passar por cima do link das paginas*/
+
+.navbar a:hover {
+  background: #5F81FA;
+}
+
+/*ser parecido com o header mas era só para destacar a frase*/
+
+.barra {
+  margin: 2% 0;
+  padding: 0.5rem;
+  background-color: #6681FA;
+  text-align: center;
+}
+
+/*tamanho da font de texto*/
+
+.barra>h1 {
+  font-size: 1.5rem;
+}
+
+/*o segundo parecido com o header só para destacar o video*/
+
+.barra2 {
+  margin: 0;
+  padding: 0.5rem;
+  background-color: #5584E0;
+}
+
+/*tamanho do texto e centralizar*/
+
+.barra2>h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/*codigo do footer para definir tamanho, cor etc*/
+
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5B73C9;
+  color: #1A213B;
+  box-sizing: border-box;
+}
+
+/*finalização , relaxa que só pegou 5 horas de minha vida kk , mas espero que tenha ficado bom a página principal*/

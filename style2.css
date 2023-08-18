@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*Paleta de cores presentes no fundo e codigo para não ter erro*/
+
+:root {
+  background-image: linear-gradient(to bottom, #390271, #4e1e73, #5e3476, #6c4a79, #775f7d);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Header sem limites e barra também*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*header e as palavras*/
+
+header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9632E3;
+  color: #E3A949;
+  box-sizing: border-box;
+}
+
+/*codigo para a lista*/
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* organizar as opções do header*/
+
+.navbar li {
+  display: inline-block;
+}
+
+/*cor,letra e tamanho dos links*/
+
+.navbar a {
+  text-decoration: none;
+  color: #E3A949;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*brilhar quando o mouse passar por cima do link das paginas*/
+
+.navbar a:hover {
+  background: #852CC9;
+}
+
+/*mesma função do barra da pagina principal*/
+
+.quadrado {
+  margin: 2% 0;
+  padding: 0.5rem;
+  background-color: #4F2C63;
+  text-align: center;
+}
+
+/* usado apenas para centralizar a tabela, vou aprender a centralizar ela um dia*/
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*usado para colocarir a borda*/
+
+table {
+  border: 1px solid #381a4c;
+  background-color: #bfa91d;
+}
+
+/*colorir o fundo da tabela,centralizar o texto e tals*/
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+  background-color: #B37BC9;
+
+}
+
+/*destacar link, e sim esta a destacar os links do header, verei depois como arruma isso*/
+
+:link:hover {
+  outline: dotted #8332C9;
+}
+
+/*codigo do footer para definir tamanho, cor etc*/
+
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #852CC9;
+  color: #1A213B;
+  box-sizing: border-box;
+}
+
+/*finalização , mas espero que tenha ficado bom */
